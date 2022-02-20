@@ -1,0 +1,33 @@
+./" Copyright (c) 2022 Azratek.
+./"
+./" This documentation is freely usable and distributable
+./" under the terms of the Azratek Documentation License.
+./"
+./" Disclaimer:
+./" THIS DOCUMENTATION IS PROVIDED "AS IS" WITHOUT ANY WARRANTY. IN NO EVENT
+./" SHALL THE AUTHORS, CONTRIBUTORS, NOR THE COPYRIGHT HOLDERS BE LIABLE FOR
+./" ANY DAMAGE CAUSED BY THE USE OF THIS DOCUMENTATION.
+
+.TH "APR" 5 "February 2022" "apr-utils 0.1" "Azratek Package Archive"
+.SH NAME
+apr - Azratek Package Archive
+.SH SYNOPSIS
+\fIfilename\fP.apr
+.SH DESCRIPTION
+Azratek Package Archive is a software package format.
+.SH FORMAT
+An Azratek Package Archive is a tar archive compressed with GZip.
+.PP
+An APR package contains:
+.RS 4
+A 'PACKAGE' file, containing the package's information (package name, version, description, author, release date, and website).
+.PP
+A 'DEPENDENCIES' file, containing a list of the package's dependencies.
+.PP
+An 'INSTALL' file, containing the package's install script (the install script must be written in Bash or POSIX Shell).
+.PP
+An 'UNINSTALL' file, containing the package's uninstall script (the uninstall script must be written in Bash or POSIX Shell).
+.PP
+A 'docs' folder containing the package's documentation.
+.PP
+A folder named after the package's name containing installable files.
