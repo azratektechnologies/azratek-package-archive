@@ -1,0 +1,22 @@
+Azratek Package Archive Specification
+=====================================
+1. Archive Format
+
+   File name extension: .apr
+
+   Archived with tar and compressed with gzip.
+
+2. Package Contents
+
+   A "PACKAGE" file containing the package's information (package name, version,
+   description, author, release date, and website).
+
+   A "DEPENDENCIES" file containing the package's dependencies.
+
+   An "INSTALL" file containing the install script.
+
+   An "UNINSTALL" file containing the uninstall script.
+
+   A "docs" folder containing the package's documentation.
+
+   A folder named after the package's name containing the installable files.
