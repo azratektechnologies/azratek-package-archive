@@ -1,0 +1,11 @@
+package name: example
+
+version: 1.2.3
+
+description: Example package.
+
+author: Example <example@example.tld>
+
+release date: DD/MM/YYYY
+
+website: https://example.com
