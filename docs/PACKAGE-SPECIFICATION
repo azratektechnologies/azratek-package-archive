@@ -8,8 +8,10 @@ Azratek Package Archive Specification
 
 2. Package Contents
 
-   A "PACKAGE" file containing the package's information (package name, version,
+   A "PACKAGE" file containing the package's information (package name, license, version,
    description, author, release date, and website).
+
+   A "LICENSE" file containing the package's copyright and licensing information.
 
    A "DEPENDENCIES" file containing the package's dependencies.
 
